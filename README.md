@@ -13,7 +13,7 @@ If something goes wrong — like you forgot to set the save path — it will qui
 <b>If you encounter any issues, feel free to open an issue. I'll take a look as soon as possible.<br>Enjoy!</b>
 <br>
 <br>
-<b>Below is the chinese version of readme. 以下是中文版本的说明</b>
+<b>Below is the Simplified Chinese version of readme. 以下是中文版本的说明</b>
 <br>
 # 静默全屏截图
 
