@@ -136,8 +136,8 @@ class ScreenshotApp:
             icon = Image.new('RGB', (64, 64), '#2E8B57')
         
         menu = pystray.Menu(
-            pystray.MenuItem("打开窗口", self.show_window),
-            pystray.MenuItem("退出", self.quit_app)
+            pystray.MenuItem("Open window 打开窗口", self.show_window),
+            pystray.MenuItem("Exit 退出", self.quit_app)
         )
         self.tray_icon = pystray.Icon("SFC", icon, "Silent Fullscreen Capturer", menu)
         threading.Thread(target=self.tray_icon.run, daemon=True).start()
